@@ -1,3 +1,48 @@
-1.	Implement object detection and trajectory planning for an Unmanned Aerial Vehicle using computer vision, enabling accurate autonomous navigation and rapid response to detected objects.
-	2.	Design and integrate reliable software for a Ground-Based Autonomous System, ensuring high-quality and timely deliveries with strong testing and team collaboration.
-	3.	Lead design and development of KAUW GUI, guiding the team to enhance skills and deliver continuous improvements.
+" Complete development milestones for autonomous systems within defined timelines and resource constraints.
+1. Modular Software Architecture
+1.1 Design and implement a modular software architecture that supports scalable UI and mission-control systems, ensuring clear interface definitions, decoupled components, and standardized communication protocols across all subsystems.
+A. Unmanned Aerial Vehicle
+Technologies: C++, OpenCV
+2.1 Implement object identification and tracking using computer vision techniques
+2.2 Integrate a trajectory planning module with velocity profiling
+2.3 Generate trajectory points along X and Y axes for path planning
+2.4 Enable smooth and accurate path execution for autonomous navigation
+2.5 Enhance dynamic response to detected objects in real time
+B. Ground-Based Autonomous  Vehicle
+Technologies: PyQt, Python, C++
+Key Deliverables:
+1.1 Authentication & Authorization: Role-based access control using SQLite; user provisioning for operators, maintenance, and general users
+1.2 Connection Settings: Real-time configuration panels for Wi-Fi, Ethernet, and Serial interfaces
+1.3 Power-On Self-Test (POST): Automated diagnostics and readiness checks at startup
+1.4 Peripheral Testing: Pre/Post test automation for PTZ, motor, battery, and GNSS modules
+1.5 GO / NO GO Decision: POST-based mission readiness evaluation logic
+1.6 Mission Planning UI: DSM & Survey of India map integration for mission visualization
+1.7 GCS Parameters Panel: Waypoint, speed, and mode configuration interface
+1.8 Communication Protocols: Defined command list and message formats
+1.9 Data Exchange: MAVLink/ROS-based bidirectional communication between GCS and UGV
+1.10 Notifications & Alerts: Health threshold alerts, emergency triggers, and pop-up warnings
+1.11 System Health Assessment: Real-time diagnostics and scoring system
+1.12 Fault Management: Rule-based fault classification and prioritization
+1.13 Emergency Management: Sensor-driven automation for emergency scenarios
+C. Kalyani Autonomous Underwater Vehicle
+Technologies: C++, Python, Qt
+Key Contributions:
+2.1 Team Enablement: Delivered Qt module training to peers
+2.2 Mission Editor Design: Developed class diagrams and UI for mission planning
+2.3 Mission Dialog UI: Tabbed interface for Mission, Live Tracking, and Replay
+2.4 Settings Panel: Integrated unit-aware manual input fields (e.g., WP Speed, Altitude)
+2.5 Waypoint Programming:
+2.5.1 Add/Remove/Clear waypoints with coordinate input and visual feedback
+2.5.2 Map loading and mission file management (Save/Upload)
+2.6 Mission Controls: Launch, Abort, Cancel, and Save functionalities
+2.7 Live Tracking:
+2.7.1 Real-time AUV simulation with dynamic plotting of waypoints
+2.7.2 Speed, location, and heading visualization
+2.8 Authentication & Authorization: SQLite-based role management
+2.9 Navigation Module:
+2.9.1 High-Level Design (HLD) for mission planning and control
+2.9.2 Low-Level Design (LLD) for heading, depth, and speed regulation
+2.10 Replay Module: Designed playback system for mission data
+2.11 Code Optimization: Refactored Mission and Live Tracking modules for modularity
+2.12 Bug Fixes: Resolved signal-slot issues, compilation errors, and event handling bugs
+2.13 User Testing & Documentation: Conducted usability testing, created manuals, and training materials"
